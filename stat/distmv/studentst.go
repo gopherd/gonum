@@ -9,8 +9,8 @@ import (
 	"sort"
 
 	"math/rand"
-	"golang.org/x/tools/container/intsets"
 
+	"github.com/gopherd/gonum/container/intsets"
 	"github.com/gopherd/gonum/floats"
 	"github.com/gopherd/gonum/mat"
 	"github.com/gopherd/gonum/stat"
