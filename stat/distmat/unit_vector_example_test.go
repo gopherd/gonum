@@ -9,8 +9,8 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/mat"
-	"gonum.org/v1/gonum/stat/distmat"
+	"github.com/gopherd/gonum/mat"
+	"github.com/gopherd/gonum/stat/distmat"
 )
 
 // ExampleUnitVector uses the UnitVector distribution to take

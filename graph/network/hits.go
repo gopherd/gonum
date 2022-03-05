@@ -7,8 +7,8 @@ package network
 import (
 	"math"
 
-	"gonum.org/v1/gonum/floats"
-	"gonum.org/v1/gonum/graph"
+	"github.com/gopherd/gonum/floats"
+	"github.com/gopherd/gonum/graph"
 )
 
 // HubAuthority is a Hyperlink-Induced Topic Search hub-authority score pair.

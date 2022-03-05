@@ -7,7 +7,7 @@ package rdf
 import (
 	"sort"
 
-	"gonum.org/v1/gonum/graph"
+	"github.com/gopherd/gonum/graph"
 )
 
 // Query represents a step in an RDF graph query. The methods on Query

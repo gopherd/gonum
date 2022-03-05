@@ -12,7 +12,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/stat"
+	"github.com/gopherd/gonum/stat"
 )
 
 // Comparable is the element interface for values stored in a vp-tree.

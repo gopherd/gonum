@@ -14,7 +14,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/mathext/internal/amos/amoslib"
+	"github.com/gopherd/gonum/mathext/internal/amos/amoslib"
 )
 
 // BUG(kortschak): Some tests here comparing the direct Go translation

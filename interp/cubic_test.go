@@ -8,9 +8,9 @@ import (
 	"math"
 	"testing"
 
-	"gonum.org/v1/gonum/floats"
-	"gonum.org/v1/gonum/floats/scalar"
-	"gonum.org/v1/gonum/mat"
+	"github.com/gopherd/gonum/floats"
+	"github.com/gopherd/gonum/floats/scalar"
+	"github.com/gopherd/gonum/mat"
 )
 
 func TestPiecewiseCubic(t *testing.T) {

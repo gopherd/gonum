@@ -7,8 +7,8 @@ package gonum
 import (
 	"math"
 
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/blas/blas64"
+	"github.com/gopherd/gonum/blas"
+	"github.com/gopherd/gonum/blas/blas64"
 )
 
 // Dpbcon returns an estimate of the reciprocal of the condition number (in the

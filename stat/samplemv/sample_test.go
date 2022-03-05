@@ -10,11 +10,11 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/floats"
-	"gonum.org/v1/gonum/mat"
-	"gonum.org/v1/gonum/spatial/r1"
-	"gonum.org/v1/gonum/stat"
-	"gonum.org/v1/gonum/stat/distmv"
+	"github.com/gopherd/gonum/floats"
+	"github.com/gopherd/gonum/mat"
+	"github.com/gopherd/gonum/spatial/r1"
+	"github.com/gopherd/gonum/stat"
+	"github.com/gopherd/gonum/stat/distmv"
 )
 
 type lhDist interface {

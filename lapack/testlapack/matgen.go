@@ -9,9 +9,9 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/blas/blas64"
-	"gonum.org/v1/gonum/floats"
+	"github.com/gopherd/gonum/blas"
+	"github.com/gopherd/gonum/blas/blas64"
+	"github.com/gopherd/gonum/floats"
 )
 
 // Dlatm1 computes the entries of dst as specified by mode, cond and rsign.

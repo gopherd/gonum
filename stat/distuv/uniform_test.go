@@ -11,7 +11,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/floats/scalar"
+	"github.com/gopherd/gonum/floats/scalar"
 )
 
 func TestUniformProb(t *testing.T) {

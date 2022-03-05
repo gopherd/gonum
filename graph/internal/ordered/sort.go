@@ -7,7 +7,7 @@ package ordered
 import (
 	"sort"
 
-	"gonum.org/v1/gonum/graph"
+	"github.com/gopherd/gonum/graph"
 )
 
 // ByID sorts a slice of graph.Node by ID.

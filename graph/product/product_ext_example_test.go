@@ -7,11 +7,11 @@ package product_test
 import (
 	"fmt"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/iterator"
-	"gonum.org/v1/gonum/graph/product"
-	"gonum.org/v1/gonum/graph/simple"
-	"gonum.org/v1/gonum/graph/topo"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/graph/iterator"
+	"github.com/gopherd/gonum/graph/product"
+	"github.com/gopherd/gonum/graph/simple"
+	"github.com/gopherd/gonum/graph/topo"
 )
 
 // person is a graph.Node representing a person.

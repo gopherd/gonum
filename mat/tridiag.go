@@ -7,10 +7,10 @@ package mat
 import (
 	"math"
 
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/blas/blas64"
-	"gonum.org/v1/gonum/internal/asm/f64"
-	"gonum.org/v1/gonum/lapack/lapack64"
+	"github.com/gopherd/gonum/blas"
+	"github.com/gopherd/gonum/blas/blas64"
+	"github.com/gopherd/gonum/internal/asm/f64"
+	"github.com/gopherd/gonum/lapack/lapack64"
 )
 
 var (

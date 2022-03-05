@@ -9,8 +9,8 @@ import (
 	"math"
 	"testing"
 
-	"gonum.org/v1/gonum/floats/scalar"
-	. "gonum.org/v1/gonum/internal/asm/f32"
+	"github.com/gopherd/gonum/floats/scalar"
+	. "github.com/gopherd/gonum/internal/asm/f32"
 )
 
 var dotTests = []struct {

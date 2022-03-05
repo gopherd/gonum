@@ -10,11 +10,11 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/internal/ordered"
-	"gonum.org/v1/gonum/graph/internal/set"
-	"gonum.org/v1/gonum/graph/simple"
-	"gonum.org/v1/gonum/graph/testgraph"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/graph/internal/ordered"
+	"github.com/gopherd/gonum/graph/internal/set"
+	"github.com/gopherd/gonum/graph/simple"
+	"github.com/gopherd/gonum/graph/testgraph"
 )
 
 func isZeroContiguousSet(nodes []graph.Node) bool {

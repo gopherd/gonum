@@ -9,8 +9,8 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/blas/blas64"
-	"gonum.org/v1/gonum/lapack"
+	"github.com/gopherd/gonum/blas/blas64"
+	"github.com/gopherd/gonum/lapack"
 )
 
 var resultGeneral blas64.General

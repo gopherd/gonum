@@ -13,8 +13,8 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/blas/blas64"
-	"gonum.org/v1/gonum/floats"
+	"github.com/gopherd/gonum/blas/blas64"
+	"github.com/gopherd/gonum/floats"
 )
 
 func TestNewDense(t *testing.T) {

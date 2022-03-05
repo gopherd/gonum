@@ -5,8 +5,8 @@
 package gonum
 
 import (
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/blas/blas64"
+	"github.com/gopherd/gonum/blas"
+	"github.com/gopherd/gonum/blas/blas64"
 )
 
 // Dsytrd reduces a symmetric n×n matrix A to symmetric tridiagonal form by an

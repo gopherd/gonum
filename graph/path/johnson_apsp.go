@@ -9,8 +9,8 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/graph/simple"
 )
 
 // JohnsonAllPaths returns a shortest-path tree for shortest paths in the graph g.

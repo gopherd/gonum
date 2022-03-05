@@ -16,7 +16,7 @@ import (
 	"io/ioutil"
 	"unicode/utf8"
 
-	"gonum.org/v1/gonum/graph/formats/dot/internal/token"
+	"github.com/gopherd/gonum/graph/formats/dot/internal/token"
 )
 
 const (

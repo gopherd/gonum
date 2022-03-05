@@ -10,8 +10,8 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/mat"
-	"gonum.org/v1/gonum/num/quat"
+	"github.com/gopherd/gonum/mat"
+	"github.com/gopherd/gonum/num/quat"
 )
 
 func TestMatAdd(t *testing.T) {

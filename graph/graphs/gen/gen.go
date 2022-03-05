@@ -7,7 +7,7 @@ package gen
 import (
 	"fmt"
 
-	"gonum.org/v1/gonum/graph"
+	"github.com/gopherd/gonum/graph"
 )
 
 // GraphBuilder is a graph that can have nodes and edges added.

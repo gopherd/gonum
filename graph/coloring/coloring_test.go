@@ -12,10 +12,10 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/encoding/graph6"
-	"gonum.org/v1/gonum/graph/internal/set"
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/graph/encoding/graph6"
+	"github.com/gopherd/gonum/graph/internal/set"
+	"github.com/gopherd/gonum/graph/simple"
 )
 
 var runLong = flag.Bool("color.long", false, "run long exact coloring tests")

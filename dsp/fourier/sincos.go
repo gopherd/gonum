@@ -4,7 +4,7 @@
 
 package fourier
 
-import "gonum.org/v1/gonum/dsp/fourier/internal/fftpack"
+import "github.com/gopherd/gonum/dsp/fourier/internal/fftpack"
 
 // DCT implements Discrete Cosine Transform for real sequences.
 type DCT struct {

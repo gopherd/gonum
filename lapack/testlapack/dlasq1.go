@@ -12,7 +12,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/floats"
+	"github.com/gopherd/gonum/floats"
 )
 
 type Dlasq1er interface {

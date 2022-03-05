@@ -10,7 +10,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/floats"
+	"github.com/gopherd/gonum/floats"
 )
 
 func TestEigen(t *testing.T) {

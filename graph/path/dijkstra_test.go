@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"testing"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/internal/ordered"
-	"gonum.org/v1/gonum/graph/path/internal/testgraphs"
-	"gonum.org/v1/gonum/graph/simple"
-	"gonum.org/v1/gonum/graph/traverse"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/graph/internal/ordered"
+	"github.com/gopherd/gonum/graph/path/internal/testgraphs"
+	"github.com/gopherd/gonum/graph/simple"
+	"github.com/gopherd/gonum/graph/traverse"
 )
 
 func TestDijkstraFrom(t *testing.T) {

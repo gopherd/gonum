@@ -13,10 +13,10 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/internal/set"
-	"gonum.org/v1/gonum/graph/iterator"
-	"gonum.org/v1/gonum/graph/topo"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/graph/internal/set"
+	"github.com/gopherd/gonum/graph/iterator"
+	"github.com/gopherd/gonum/graph/topo"
 )
 
 // ErrInvalidPartialColoring is returned when a partial coloring

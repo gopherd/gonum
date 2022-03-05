@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"math"
 
-	"gonum.org/v1/gonum/spatial/kdtree"
+	"github.com/gopherd/gonum/spatial/kdtree"
 )
 
 func ExampleTree() {

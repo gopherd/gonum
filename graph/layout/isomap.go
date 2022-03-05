@@ -5,11 +5,11 @@
 package layout
 
 import (
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/path"
-	"gonum.org/v1/gonum/mat"
-	"gonum.org/v1/gonum/spatial/r2"
-	"gonum.org/v1/gonum/stat/mds"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/graph/path"
+	"github.com/gopherd/gonum/mat"
+	"github.com/gopherd/gonum/spatial/r2"
+	"github.com/gopherd/gonum/stat/mds"
 )
 
 // IsomapR2 implements a graph layout algorithm based on the Isomap

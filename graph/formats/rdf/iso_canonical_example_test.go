@@ -13,7 +13,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"gonum.org/v1/gonum/graph/formats/rdf"
+	"github.com/gopherd/gonum/graph/formats/rdf"
 )
 
 func ExampleIsoCanonicalHashes_isomorphisms() {

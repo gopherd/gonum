@@ -10,7 +10,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/stat/distuv"
+	"github.com/gopherd/gonum/stat/distuv"
 )
 
 const badLengthMismatch = "sample: slice length mismatch"

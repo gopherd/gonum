@@ -9,9 +9,9 @@ import (
 	"sort"
 	"testing"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/iterator"
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/graph/iterator"
+	"github.com/gopherd/gonum/graph/simple"
 )
 
 type line struct{ f, t, id int64 }

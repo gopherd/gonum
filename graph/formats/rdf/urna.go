@@ -13,7 +13,7 @@ import (
 	"hash"
 	"sort"
 
-	"gonum.org/v1/gonum/stat/combin"
+	"github.com/gopherd/gonum/stat/combin"
 )
 
 // Deduplicate removes duplicate statements in s, working in place, and returns

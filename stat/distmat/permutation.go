@@ -7,7 +7,7 @@ package distmat
 import (
 	"math/rand"
 
-	"gonum.org/v1/gonum/mat"
+	"github.com/gopherd/gonum/mat"
 )
 
 // UniformPermutation is a uniform distribution over the n!

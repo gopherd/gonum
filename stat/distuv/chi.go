@@ -9,7 +9,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/mathext"
+	"github.com/gopherd/gonum/mathext"
 )
 
 // Chi implements the χ distribution, a one parameter distribution

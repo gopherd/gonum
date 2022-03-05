@@ -10,10 +10,10 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/internal/set"
-	"gonum.org/v1/gonum/graph/simple"
-	"gonum.org/v1/gonum/graph/testgraph"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/graph/internal/set"
+	"github.com/gopherd/gonum/graph/simple"
+	"github.com/gopherd/gonum/graph/testgraph"
 )
 
 func weightedDirectedBuilder(nodes []graph.Node, edges []testgraph.WeightedLine, self, absent float64) (g graph.Graph, n []graph.Node, e []testgraph.Edge, s, a float64, ok bool) {

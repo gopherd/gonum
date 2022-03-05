@@ -5,8 +5,8 @@
 package gonum
 
 import (
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/lapack"
+	"github.com/gopherd/gonum/blas"
+	"github.com/gopherd/gonum/lapack"
 )
 
 // Dgerqf computes an RQ factorization of the m×n matrix A,

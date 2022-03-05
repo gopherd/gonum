@@ -9,7 +9,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/stat"
+	"github.com/gopherd/gonum/stat"
 )
 
 func ExampleLinearRegression() {

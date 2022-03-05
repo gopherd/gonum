@@ -10,7 +10,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/integrate/testquad"
+	"github.com/gopherd/gonum/integrate/testquad"
 )
 
 func TestTrapezoidal(t *testing.T) {

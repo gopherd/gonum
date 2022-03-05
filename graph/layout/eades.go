@@ -9,9 +9,9 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/spatial/barneshut"
-	"gonum.org/v1/gonum/spatial/r2"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/spatial/barneshut"
+	"github.com/gopherd/gonum/spatial/r2"
 )
 
 // EadesR2 implements the graph layout algorithm essentially as

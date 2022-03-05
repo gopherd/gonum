@@ -4,7 +4,7 @@
 
 package rdf
 
-import "gonum.org/v1/gonum/graph"
+import "github.com/gopherd/gonum/graph"
 
 var (
 	g *Graph

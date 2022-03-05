@@ -5,10 +5,10 @@
 package lapack64
 
 import (
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/blas/blas64"
-	"gonum.org/v1/gonum/lapack"
-	"gonum.org/v1/gonum/lapack/gonum"
+	"github.com/gopherd/gonum/blas"
+	"github.com/gopherd/gonum/blas/blas64"
+	"github.com/gopherd/gonum/lapack"
+	"github.com/gopherd/gonum/lapack/gonum"
 )
 
 var lapack64 lapack.Float64 = gonum.Implementation{}

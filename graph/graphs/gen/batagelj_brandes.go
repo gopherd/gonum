@@ -13,7 +13,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/graph"
+	"github.com/gopherd/gonum/graph"
 )
 
 // Gnp constructs a Gilbert’s model subgraph in the destination, dst, of order n. Edges

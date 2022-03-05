@@ -10,8 +10,8 @@ package r3
 import (
 	"unsafe"
 
-	"gonum.org/v1/gonum/blas/blas64"
-	"gonum.org/v1/gonum/mat"
+	"github.com/gopherd/gonum/blas/blas64"
+	"github.com/gopherd/gonum/mat"
 )
 
 type array [3][3]float64

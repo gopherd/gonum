@@ -9,9 +9,9 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/floats"
-	"gonum.org/v1/gonum/mathext"
-	"gonum.org/v1/gonum/stat"
+	"github.com/gopherd/gonum/floats"
+	"github.com/gopherd/gonum/mathext"
+	"github.com/gopherd/gonum/stat"
 )
 
 // UnitNormal is an instantiation of the normal distribution with Mu = 0 and Sigma = 1.

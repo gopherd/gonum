@@ -10,10 +10,10 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/floats"
-	"gonum.org/v1/gonum/floats/scalar"
-	"gonum.org/v1/gonum/mat"
-	"gonum.org/v1/gonum/spatial/r1"
+	"github.com/gopherd/gonum/floats"
+	"github.com/gopherd/gonum/floats/scalar"
+	"github.com/gopherd/gonum/mat"
+	"github.com/gopherd/gonum/spatial/r1"
 )
 
 func TestBhattacharyyaNormal(t *testing.T) {

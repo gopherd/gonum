@@ -7,8 +7,8 @@ package distmat
 import (
 	"math/rand"
 
-	"gonum.org/v1/gonum/mat"
-	"gonum.org/v1/gonum/stat/distuv"
+	"github.com/gopherd/gonum/mat"
+	"github.com/gopherd/gonum/stat/distuv"
 )
 
 // UnitVector is a uniform distribution over the surface of a sphere.

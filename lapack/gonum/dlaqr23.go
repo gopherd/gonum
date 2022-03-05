@@ -7,9 +7,9 @@ package gonum
 import (
 	"math"
 
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/blas/blas64"
-	"gonum.org/v1/gonum/lapack"
+	"github.com/gopherd/gonum/blas"
+	"github.com/gopherd/gonum/blas/blas64"
+	"github.com/gopherd/gonum/lapack"
 )
 
 // Dlaqr23 performs the orthogonal similarity transformation of an n×n upper

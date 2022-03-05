@@ -11,7 +11,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/graph"
+	"github.com/gopherd/gonum/graph"
 )
 
 // Interval is an interval of resolutions with a common score.

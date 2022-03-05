@@ -7,7 +7,7 @@ package mat
 import (
 	"math/cmplx"
 
-	"gonum.org/v1/gonum/blas/cblas128"
+	"github.com/gopherd/gonum/blas/cblas128"
 )
 
 var (

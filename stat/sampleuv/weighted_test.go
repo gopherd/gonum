@@ -12,7 +12,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/floats"
+	"github.com/gopherd/gonum/floats"
 )
 
 var prob = flag.Bool("prob", false, "enables probabilistic testing of the random weighted sampler")

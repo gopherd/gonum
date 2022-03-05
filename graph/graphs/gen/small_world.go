@@ -11,8 +11,8 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/stat/sampleuv"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/stat/sampleuv"
 )
 
 // NavigableSmallWorld constructs an N-dimensional grid with guaranteed local connectivity

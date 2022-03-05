@@ -9,7 +9,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/blas/blas64"
+	"github.com/gopherd/gonum/blas/blas64"
 )
 
 type Dorg2ler interface {

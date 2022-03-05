@@ -9,9 +9,9 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/graphs/gen"
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/graph/graphs/gen"
+	"github.com/gopherd/gonum/graph/simple"
 )
 
 // intset is an integer set.

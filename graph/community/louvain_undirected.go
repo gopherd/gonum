@@ -10,10 +10,10 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/internal/ordered"
-	"gonum.org/v1/gonum/graph/internal/set"
-	"gonum.org/v1/gonum/graph/iterator"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/graph/internal/ordered"
+	"github.com/gopherd/gonum/graph/internal/set"
+	"github.com/gopherd/gonum/graph/iterator"
 )
 
 // qUndirected returns the modularity Q score of the graph g subdivided into the

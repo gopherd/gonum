@@ -11,8 +11,8 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/floats"
-	"gonum.org/v1/gonum/lapack"
+	"github.com/gopherd/gonum/floats"
+	"github.com/gopherd/gonum/lapack"
 )
 
 type Dlangber interface {

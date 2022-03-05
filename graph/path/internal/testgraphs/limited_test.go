@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/graph/simple"
 )
 
 type changes struct {

@@ -7,7 +7,7 @@ package r3
 import (
 	"math"
 
-	"gonum.org/v1/gonum/num/quat"
+	"github.com/gopherd/gonum/num/quat"
 )
 
 // TODO: possibly useful additions to the current rotation API:

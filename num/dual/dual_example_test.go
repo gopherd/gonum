@@ -7,7 +7,7 @@ package dual_test
 import (
 	"fmt"
 
-	"gonum.org/v1/gonum/num/dual"
+	"github.com/gopherd/gonum/num/dual"
 )
 
 func ExampleNumber_fike() {

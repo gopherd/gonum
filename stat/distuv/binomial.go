@@ -9,8 +9,8 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/mathext"
-	"gonum.org/v1/gonum/stat/combin"
+	"github.com/gopherd/gonum/mathext"
+	"github.com/gopherd/gonum/stat/combin"
 )
 
 // Binomial implements the binomial distribution, a discrete probability distribution

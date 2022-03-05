@@ -11,11 +11,11 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/encoding"
-	"gonum.org/v1/gonum/graph/encoding/dot"
-	"gonum.org/v1/gonum/graph/formats/rdf"
-	"gonum.org/v1/gonum/graph/multi"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/graph/encoding"
+	"github.com/gopherd/gonum/graph/encoding/dot"
+	"github.com/gopherd/gonum/graph/formats/rdf"
+	"github.com/gopherd/gonum/graph/multi"
 )
 
 // dotNode implements graph.Node and dot.Node to allow the

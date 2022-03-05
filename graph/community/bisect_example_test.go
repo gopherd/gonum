@@ -10,9 +10,9 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/graph/community"
-	"gonum.org/v1/gonum/graph/internal/ordered"
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/gopherd/gonum/graph/community"
+	"github.com/gopherd/gonum/graph/internal/ordered"
+	"github.com/gopherd/gonum/graph/simple"
 )
 
 func ExampleProfile_simple() {

@@ -5,8 +5,8 @@
 package gonum
 
 import (
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/internal/asm/f64"
+	"github.com/gopherd/gonum/blas"
+	"github.com/gopherd/gonum/internal/asm/f64"
 )
 
 var _ blas.Float64Level3 = Implementation{}

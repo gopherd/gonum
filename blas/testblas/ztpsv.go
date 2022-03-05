@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"math/rand"
-	"gonum.org/v1/gonum/blas"
+	"github.com/gopherd/gonum/blas"
 )
 
 type Ztpsver interface {

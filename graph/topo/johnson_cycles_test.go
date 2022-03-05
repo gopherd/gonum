@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"gonum.org/v1/gonum/graph/internal/ordered"
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/gopherd/gonum/graph/internal/ordered"
+	"github.com/gopherd/gonum/graph/simple"
 )
 
 var cyclesInTests = []struct {

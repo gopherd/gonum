@@ -7,7 +7,7 @@ package quat
 import (
 	"testing"
 
-	"gonum.org/v1/gonum/floats/scalar"
+	"github.com/gopherd/gonum/floats/scalar"
 )
 
 var invTests = []struct {

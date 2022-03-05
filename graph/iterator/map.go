@@ -14,7 +14,7 @@ package iterator
 import (
 	"unsafe"
 
-	"gonum.org/v1/gonum/graph"
+	"github.com/gopherd/gonum/graph"
 )
 
 // A mapIter is an iterator for ranging over a map.

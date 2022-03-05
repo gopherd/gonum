@@ -9,8 +9,8 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/floats"
-	"gonum.org/v1/gonum/stat"
+	"github.com/gopherd/gonum/floats"
+	"github.com/gopherd/gonum/stat"
 )
 
 // Exponential represents the exponential distribution (https://en.wikipedia.org/wiki/Exponential_distribution).

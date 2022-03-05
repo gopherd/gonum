@@ -4,7 +4,7 @@
 
 package gonum
 
-import "gonum.org/v1/gonum/blas"
+import "github.com/gopherd/gonum/blas"
 
 // Dgesv computes the solution to a real system of linear equations
 //  A * X = B

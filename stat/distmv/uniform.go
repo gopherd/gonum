@@ -8,7 +8,7 @@ import (
 	"math"
 
 	"math/rand"
-	"gonum.org/v1/gonum/spatial/r1"
+	"github.com/gopherd/gonum/spatial/r1"
 )
 
 // Uniform represents a multivariate uniform distribution.

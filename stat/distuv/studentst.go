@@ -9,7 +9,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/mathext"
+	"github.com/gopherd/gonum/mathext"
 )
 
 const logPi = 1.1447298858494001741 // http://oeis.org/A053510

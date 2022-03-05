@@ -7,12 +7,12 @@ package spectral
 import (
 	"testing"
 
-	"gonum.org/v1/gonum/floats/scalar"
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/internal/ordered"
-	"gonum.org/v1/gonum/graph/iterator"
-	"gonum.org/v1/gonum/graph/simple"
-	"gonum.org/v1/gonum/mat"
+	"github.com/gopherd/gonum/floats/scalar"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/graph/internal/ordered"
+	"github.com/gopherd/gonum/graph/iterator"
+	"github.com/gopherd/gonum/graph/simple"
+	"github.com/gopherd/gonum/mat"
 )
 
 var randomWalkLaplacianTests = []struct {

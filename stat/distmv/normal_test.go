@@ -10,10 +10,10 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/diff/fd"
-	"gonum.org/v1/gonum/floats"
-	"gonum.org/v1/gonum/mat"
-	"gonum.org/v1/gonum/stat"
+	"github.com/gopherd/gonum/diff/fd"
+	"github.com/gopherd/gonum/floats"
+	"github.com/gopherd/gonum/mat"
+	"github.com/gopherd/gonum/stat"
 )
 
 func TestNormProbs(t *testing.T) {

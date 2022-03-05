@@ -11,7 +11,7 @@ import (
 
 	"math/rand"
 
-	. "gonum.org/v1/gonum/internal/asm/f64"
+	. "github.com/gopherd/gonum/internal/asm/f64"
 )
 
 func TestDotUnitary(t *testing.T) {

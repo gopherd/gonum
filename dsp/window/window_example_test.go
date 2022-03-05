@@ -9,8 +9,8 @@ import (
 	"math"
 	"math/cmplx"
 
-	"gonum.org/v1/gonum/dsp/fourier"
-	"gonum.org/v1/gonum/dsp/window"
+	"github.com/gopherd/gonum/dsp/fourier"
+	"github.com/gopherd/gonum/dsp/window"
 )
 
 func Example() {

@@ -7,7 +7,7 @@ package sampleuv
 import (
 	"math/rand"
 
-	"gonum.org/v1/gonum/floats/scalar"
+	"github.com/gopherd/gonum/floats/scalar"
 )
 
 // Weighted provides sampling without replacement from a collection of items with

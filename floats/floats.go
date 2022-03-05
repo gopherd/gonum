@@ -9,8 +9,8 @@ import (
 	"math"
 	"sort"
 
-	"gonum.org/v1/gonum/floats/scalar"
-	"gonum.org/v1/gonum/internal/asm/f64"
+	"github.com/gopherd/gonum/floats/scalar"
+	"github.com/gopherd/gonum/internal/asm/f64"
 )
 
 const (

@@ -7,7 +7,7 @@ package gonum
 import (
 	"testing"
 
-	"gonum.org/v1/gonum/blas/testblas"
+	"github.com/gopherd/gonum/blas/testblas"
 )
 
 func TestDgemm(t *testing.T) {

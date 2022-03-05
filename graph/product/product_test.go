@@ -11,10 +11,10 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/encoding/dot"
-	"gonum.org/v1/gonum/graph/graphs/gen"
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/gopherd/gonum/graph"
+	"github.com/gopherd/gonum/graph/encoding/dot"
+	"github.com/gopherd/gonum/graph/graphs/gen"
+	"github.com/gopherd/gonum/graph/simple"
 )
 
 func (n Node) DOTID() string { return fmt.Sprintf("(%d,%d)", n.A.ID(), n.B.ID()) }

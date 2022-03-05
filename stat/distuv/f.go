@@ -9,7 +9,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/mathext"
+	"github.com/gopherd/gonum/mathext"
 )
 
 // F implements the F-distribution, a two-parameter continuous distribution

@@ -11,7 +11,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/lapack"
+	"github.com/gopherd/gonum/lapack"
 )
 
 type Dlascler interface {

@@ -9,8 +9,8 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/floats"
+	"github.com/gopherd/gonum/blas"
+	"github.com/gopherd/gonum/floats"
 )
 
 func TestDgemmParallel(t *testing.T) {

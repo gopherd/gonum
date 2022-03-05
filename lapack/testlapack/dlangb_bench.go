@@ -10,7 +10,7 @@ import (
 
 	"math/rand"
 
-	"gonum.org/v1/gonum/lapack"
+	"github.com/gopherd/gonum/lapack"
 )
 
 func DlangbBenchmark(b *testing.B, impl Dlangber) {
